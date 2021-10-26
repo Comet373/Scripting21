@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Flexbox</title>
+	
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<style>
+				
+		body{
+			font-family: 'Kaushan Script', cursive;
+			margin:0; 
+			background-image:url("background1.png");
+			background-size:cover;
+			background-attachment:fixed;
+			background-position: center;
+		}
+		header{
+			background-color:#000000;
+			background-image:url("background1.png");
+			background-size:cover;
+			background-attachment:fixed;
+			background-position: center;
+			height: 50vh;
+			display:flex;
+			align-items: center;
+			padding-left: 20px;
+			justify-content: center;
+			
+				
+		}
+		
+		header h1{
+			font-size: 50px;
+			font-family: 'Kaushan Script', cursive;
+			color:#FFBE00; 
+			font-size: 30px;
+		}
+		.flex-container{
+			display: flex;
+			align-items: stretch;
+		}
+		.flex-container div{
+			background-color: #009BFF;
+			margin: 10px;
+			padding:20px;
+		}
+		#item1{
+			flex:20%;
+		}
+		
+		#item1 img{
+			width:100%;
+/*			height:80%;*/
+		}
+		
+		#item2{
+			flex:80%;
+		}
+		
+		.btn:hover{
+			background-color:#FF0000;
+			color: white;
+		}
+		#item5{
+			flex:50%;
+		}
+		#item6{
+			flex:25%;
+			background-color: transparent;
+		}
+		#item7{
+			flex:50%;
+			background-color: transparent;
+		}
+		#item8{
+			flex:25%;
+			background-color: transparent;
+		}
+		
+		#item9{
+			flex:50%;
+		}
+		#item10{
+			flex:20%;
+		}
+		#item10 img{
+			width:100%;
+		}
+		#item11{
+			flex:30%;
+		}
+		
+		
+		footer{
+			background-image:url("background1.png");
+			background-size:cover;
+			background-attachment:fixed;
+			background-position: center;
+			padding:50px 0px;
+			color:orange;
+			text-align: center;
+			font-weight: bold;
+		}
+		
+		@media (max-width:800px){
+			
+			.flex-container{
+				flex-direction:column;
+			}
+		}
+		
+	</style>
+</head>
+
+<body>
+	
+	<header>
+		
+		<h1>Gurman Chouhan</h1>
+		
+	</header>
+	
+	<div class="flex-container">
+		
+		<div id="item1">
+			<img src="aurora1.jpg" alt="Aurora1">
+		</div>
+		<div id="item2">
+		
+		<p>Gurman Singh Chouhan is a first-year student in the Multimedia Production program focused on graphic design and photography. Gurman likes to read fantasy novels and prefers to read them on his phone to a physical book. His screen time on his phone is normally 7-8 hours a day unless he has work because he’s always reading his novels on various sites. He has read Lord of the Rings and Harry Potter multiples times as examples for his love of novels. He constantly downloads new novels on to his google drive so that he can read anywhere and anytime.
+			
+			
+			One of my favorite quote's from a story is ““The only ones who should kill, are those who are prepared to be killed.”
+                 ― Lelouch Vi Britannia
+</p>
+		
+		</div>
+		
+			
+	</div> 
+	
+	
+	
+	<div class="flex-container">
+
+		<div id="item5">
+		
+		<p>Gurman really likes to draw since he was a child. As he grew up he started playing more video games and less time drawing so his artistic ability suffered. He has always taken art in school from grade 1-12 and he did enjoy it, however unlike when he was a child, he doesn’t spend his free time drawing. Gurman has a weird memory, he remembers unimportant stuff that people have said to him even years back, but he sometimes struggles to remember what he learns in school. </p>
+		
+		</div>
+	
+	</div>
+ 
+	<div class="flex-container">
+		
+	<div id="item9"> <p>Gurman really likes to game, he plays a lot of them on his laptop, Xbox and his phone. Also, unlike stereotypical hard-core gamers, he isn’t anti social and hangs out with friends and is active on social media where he shares his photography on Instagram since 2015. He prefers to play online with friends. Despite 90% of his friends going to the university, he still managed to make some new friends who he hangs out with after school. Gurman was never an honor roll student. His favourite courses included sports and conditioning, art and multimedia. He won some awards in elementary and junior high for attendance and being respectful towards his peers and faculty. He is proud of getting his licence early on and getting a part-time job as soon as he turned 16. His teachers have complimented his friendly attitude and for being a happy guy who is always up to chat.</p>
+		</div>
+		
+	<div id="item10">
+		<img src="aurora2.jpg" alt="Aurora2">
+		</div>
+
+	<div id="item11"> <p>He has volunteered at some Sikh festivals in Edmonton, and he was also a councillor in training at YMCA for one summer. Gurman lives with his mother, father, sister and grandmother. His main hobbies are, reading, playing games, watching anime and television shows. He used to play soccer, field hockey and taekwondo. For music he listens to a wide variety in every genre and in five different languages including English, Hindi, Punjabi, Japanese and Korean. Gurman would love to visit Japan one day, especially Tokyo and Kyoto being his two favourite destinations. He’s currently working part-time as a (grocery clerk at save on foods.</p>
+    </div>
+		
+	</div>
+	
+	
+	<footer>
+	
+	<div class="flex-container"></div>
+		<div id="item6"></div>
+		<div id="item7"></div>
+	 <div id="item8"></div>
+			<div class="flex-container">
+		</div>
+	
+		<p>Created by Gurman Singh Chouhan</p>
+				
+	        <a href="https://discord.gg/6sBCUFTB" target="_blank"> <img src="Discord-Logo-700x394.png" alt="Discord"></a>
+
+			<a href="https://www.youtube.com/" target="_blank"> <img src="youtube_logo_icon_168737.png" alt="Youtube"></a>
+		
+		    <a href="https://www.instagram.com/samdude373/?hl=en" target="_blank"> <img src="Instagram_logo_2016.svg.png" alt="Instagram"></a>
+					
+		
+		<p>&copy; 2021</p>
+	 
+	
+
+	 
+	 
+
+	</footer>
+	
+	
+</body>
+</html>
