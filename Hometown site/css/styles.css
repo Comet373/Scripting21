@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 /* CSS Document */
 
@@ -161,3 +162,168 @@ clear: both;
   background-color: #B30016;
   color: white;
 }
+=======
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+	/*Remove default spacing*/
+	margin: 0; 
+	padding: 0; 
+	
+	/*set a background colour*/
+	background:#622819; 
+	
+	/*set a default font family*/
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+h1{
+	/*set a font for headings*/
+	font-family: 'Press Start 2P', cursive; 
+	font-size: 2.5em;/*1 em = 16 px(default size) so 2.5em= 40px*/
+	color: white;
+}
+
+
+#header{
+	margin: 0;
+	/*space inside the div*/
+	padding: 100px;
+	
+	/*set a background image*/
+	background-image: url("../../hometown site.png");
+	/*set the background image to cover the whole div*/
+	background-size: cover;
+
+}
+
+#subHead{
+	/*space inside the div*/
+	padding: 100px;
+	
+	/*set margin top and bottom to 0 and auto centered*/
+	margin: 0 auto;
+	/*set a background image*/
+	background-image: url("../../websiteDevDayOne/websiteDev/images/backgrounds/spring.jpg");
+	
+	/*set the background image to cover the whole div*/
+	background-size: cover;
+	
+	/*make it so the background image doesn't scroll with the page*/
+	background-attachment: fixed;
+	
+	/*set css to look at entire element (padding included) to set size*/
+	box-sizing: border-box;
+	
+	/*set a maximum width of 960px*/
+	max-width: 960px;
+
+}
+
+.sect{
+	
+	background: #FFFFFF; 
+	margin: 0 auto; 
+	padding: 20px; 
+	
+	/*set css to look at entire element (padding included) to set size*/
+	box-sizing: border-box;
+	
+	/*set a maximum width of 960px*/
+	max-width: 960px;
+}
+
+/*psuedo-classes for the links (with rollovers)*/
+a:link, a:visited{
+	color:#B0A33C; 
+	text-decoration: none;
+}
+a:hover{
+	color:red; 
+	text-decoration: underline;
+}
+a:active{
+	color: orangered;
+}
+
+/*------------------------navBar -------------------*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+	background-color: #FFC860;
+	/*make our navbar go all the way across the screen*/
+	overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav a:link, nav a:visited {
+  display: block;
+  padding: 20px;
+	color: #622819;
+}
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #BD5C2A;
+	color: #EFE3CE;
+	text-decoration: none;
+}
+
+
+
+/*----------------------------image gallery-----------------*/
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.clearIt{
+clear: both;
+}
+
+
+/*---------------------------Tables------------------------*/
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #005CFF;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #B8B8B8;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #B30016;
+  color: white;
+}
+>>>>>>> c89696f3ba0cd6c1a24b3f61634ec65a78c7a2d8
